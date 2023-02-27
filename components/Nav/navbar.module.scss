@@ -1,0 +1,31 @@
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  padding: 1rem 2rem;
+  background: rgba(235, 145, 18, 0.25);
+  border: 1px solid rgba(235, 145, 18, 0.18);
+  position: fixed;
+  z-index: 2;
+
+  &__logo {
+    color: red;
+  }
+
+  &__links {
+    flex: 1;
+    display: flex;
+    color: white;
+    justify-content: center;
+    background-color: white;
+    list-style: none;
+
+    li {
+      margin: 0 1rem;
+      cursor: pointer;
+      flex-direction: column;
+    }
+  }
+}
