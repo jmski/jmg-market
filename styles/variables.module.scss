@@ -1,0 +1,18 @@
+/* variables */
+$primary-color: #edf2f8;
+$secondary-color: #14b8a6;
+$black-color: #030303;
+$lightGray-color: #e4e4e4;
+$gray-color: #6b7688;
+$brown-color: #46364a;
+$white-color: #ffffff;
+
+:export {
+  primaryColor: $primary-color;
+  secondaryColor: $secondary-color;
+  black: $black-color;
+  lightGray: $lightGray-color;
+  gray: $gray-color;
+  brown: $brown-color;
+  white: $white-color;
+}
