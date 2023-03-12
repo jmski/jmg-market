@@ -4,7 +4,27 @@ import schemaTypes from "all:part:@sanity/base/schema-type";
 import product from "./product";
 import banner from "./banner";
 
+import works from "./works";
+import testimonials from "./testimonials";
+import brands from "./brands";
+import abouts from "./abouts";
+import experiences from "./experiences";
+import skills from "./skills";
+import workExperience from "./workExperience";
+import contact from "./contact";
+
 export default createSchema({
   name: "default",
-  types: schemaTypes.concat([product, banner]),
+  types: schemaTypes.concat([
+    product,
+    banner,
+    works,
+    testimonials,
+    brands,
+    abouts,
+    skills,
+    workExperience,
+    experiences,
+    contact,
+  ]),
 });
