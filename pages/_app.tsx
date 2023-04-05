@@ -1,8 +1,7 @@
 import React from "react";
 import "@/styles/globals.scss";
-import "@/styles/variables.module.scss";
 
-import { Layout } from "@/components/ecommerce";
+import { Layout } from "@/components/";
 import { StateContext } from "@/context/StateContext";
 import type { AppProps } from "next/app";
 import { Toaster } from "react-hot-toast";
